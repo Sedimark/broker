@@ -6,6 +6,8 @@ the already discussed property for types :
 - [AIModelAsset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-ai-model-asset.jsonld)
 - [ServiceAsset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-service-asset.jsonld)
 
+#### [context](https://sedimark.github.io/broker/jsonld-contexts/sedimark-helsinki-compound.jsonld) for helsinki use case
+
 ## Calling the broker with the context
 You can use the "Link" header to define the context of your request when calling the NGSILD-Broker.
 ```
@@ -27,7 +29,7 @@ GET "localhost:8080/ngsi-ld/v1/entities/{id}"
 ##  fetching of a list of assets
 GET "localhost:8080/ngsi-ld/v1/entities?type=Asset"
 
-### temporal entities
+## temporal entities
 If your properties are changing through time, you can add an observedAt value inside the properties to mark the point that they represent in times.
 
 Then you can use the temporal endpoints to fetch the temporal representation.
