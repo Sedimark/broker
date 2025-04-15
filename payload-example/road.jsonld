@@ -1,0 +1,142 @@
+{
+	"id": "urn:Sedimark:Road:700",
+	"type": "Road",
+	"location": {
+		"type": "GeoProperty",
+		"value": {
+			"type": "Polygon",
+			"coordinates": [
+				[
+					[
+						2.54968121486E7,
+						6673040.9213
+					],
+					[
+						2.54968166937E7,
+						6672942.3655
+					],
+					[
+						2.54968193274E7,
+						6672892.993
+					],
+					[
+						2.54968408642E7,
+						6672893.9151
+					],
+					[
+						2.54968382564E7,
+						6672943.1667
+					],
+					[
+						2.54968358365E7,
+						6672988.862
+					],
+					[
+						2.54968391108E7,
+						6672989.0024
+					],
+					[
+						2.54968366759E7,
+						6673034.1345
+					],
+					[
+						2.54968413822E7,
+						6673039.4088
+					],
+					[
+						2.54968395473E7,
+						6673042.082
+					],
+					[
+						2.54968121486E7,
+						6673040.9213
+					]
+				]
+			]
+		}
+	},
+	"roadAreaId": {
+		"type": "Property",
+		"value": 700
+	},
+	"roadAreaNumber": {
+		"type": "Property",
+		"value": 640
+	},
+	"roadId": {
+		"type": "Property",
+		"value": 1055
+	},
+	"roadName": {
+		"type": "Property",
+		"value": "Keskuskatu"
+	},
+	"roadAreaClass": {
+		"type": "Property",
+		"value": "Asemakaavan mukainen"
+	},
+	"roadAreaClassNumber": {
+		"type": "Property",
+		"value": 3
+	},
+	"usagePurposeId": {
+		"type": "Property",
+		"value": 234
+	},
+	"usagePurpose": {
+		"type": "Property",
+		"value": "Kävelykatu"
+	},
+	"maintenanceClass": {
+		"type": "Property",
+		"value": "II"
+	},
+	"roadOpeningDate": {
+		"type": "Property",
+		"value": "1931-12-31T22:00:00Z"
+	},
+	"constructionStatus": {
+		"type": "Property",
+		"value": "Valmis"
+	},
+	"owner": {
+		"type": "Property",
+		"value": "Ei tietoa"
+	},
+	"neighborhood": {
+		"type": "Property",
+		"value": "Kluuvi"
+	},
+	"subArea": {
+		"type": "Property",
+		"value": "Kluuvi"
+	},
+	"majorDistrict": {
+		"type": "Property",
+		"value": "Eteläinen"
+	},
+	"length": {
+		"type": "Property",
+		"value": 148
+	},
+	"averageWidth": {
+		"type": "Property",
+		"value": 22.7
+	},
+	"surfaceArea": {
+		"type": "Property",
+		"value": 3358.1
+	},
+	"modified": {
+		"type": "Property",
+		"value": "2015-06-16T05:31:35Z"
+	},
+	"publisher": {
+		"type": "Property",
+		"value": "HELSINKI/YLRE"
+	},
+	"updatedToDataService": {
+		"type": "Property",
+		"value": "2025-04-15T00:00:00Z"
+	}
+}

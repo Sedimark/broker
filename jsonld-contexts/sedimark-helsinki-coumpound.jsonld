@@ -1,8 +1,7 @@
 {
   "@context": [
     "https://easy-global-market.github.io/ngsild-api-data-models/airQuality/jsonld-contexts/airQuality-compound.jsonld",
-    "https://smartdatamodels.org/dataModel.Transportation/Road",
-    "https://smartdatamodels.org/dataModel.ParksAndGardens/Garden",
+    "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-compound.jsonld",
     "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-gitcontext-v1.8.jsonld"
   ]
 }

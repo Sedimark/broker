@@ -1,0 +1,13 @@
+{
+	"@context": {
+		"areaCreationDate": "https://vocab.egm.io/areaCreationDate",
+		"class": "https://vocab.egm.io/class",
+		"greenAreaId": "https://vocab.egm.io/greenAreaId",
+		"Park": "https://vocab.egm.io/Park",
+		"parkName": "https://vocab.egm.io/parkName",
+		"parkNameId": "https://vocab.egm.io/parkNameId",
+		"parkNumber": "https://vocab.egm.io/parkNumber",
+		"zoningCode": "https://vocab.egm.io/zoningCode",
+		"zoningCodeText": "https://vocab.egm.io/zoningCodeText"
+	}
+}
