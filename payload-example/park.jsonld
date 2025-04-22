@@ -1,5 +1,5 @@
 {
-	"id": "urn:Sedimark:Park:9900",
+	"id": "urn:ngsi-ld:Park:9900",
 	"type": "Park",
 	"location": {
 		"type": "GeoProperty",

@@ -1,5 +1,5 @@
 {
-	"id": "urn:Sedimark:Road:700",
+	"id": "urn:ngsi-ld:Road:700",
 	"type": "Road",
 	"location": {
 		"type": "GeoProperty",
