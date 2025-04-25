@@ -1,0 +1,94 @@
+{
+  "id": "urn:ngsi-ld:Asset:MyAssetId",
+  "type": "DataAsset",
+  "temporal": {
+      "type": "Property",
+      "value": "todo"
+  },
+  "startDate": {
+      "type": "Property",
+      "value": "2023-01-01"
+  },
+  "endDate": {
+      "type": "Property",
+      "value": "2025-01-01"
+  },
+  "temporalResolution": {
+      "type": "Property",
+      "value": "Daily"
+  },
+  "size": {
+      "type": "Property",
+      "value": 100
+  },  
+  "title": {
+    "type": "Property",
+    "value": "my Title"
+  },
+  "creator": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Participant:MyParticipantId"
+  },
+  "description": {
+    "type": "Property",
+    "value": "my Description"
+  },
+  "publisher": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Participant:MyParticipantId"
+  },
+  "issued": {
+    "type": "Property",
+    "value": "2024-09-01T11:00:00.000Z"
+  },
+  "modified": {
+    "type": "Property",
+    "value": "2024-09-01T11:00:00.000Z"
+  },
+  "keyword": {
+    "type": "Property",
+    "value": ["Tag1", "Tag2"]
+  },
+  "license": {
+    "type": "Property",
+    "value": "https://creativecommons.org/licenses/by-nd/4.0/"
+  },
+  "spatial": {
+    "type": "Property",
+    "value": "https://sws.geonames.org/6299418/"
+  },
+  "startedAtTime": {
+    "type": "Property",
+    "value": "2024-01-01T01:00:00.000Z"
+  },
+  "endedAtTime": {
+    "type": "Property",
+    "value": "2024-12-31T23:59:59.000Z"
+  },
+  "version": {
+    "type": "Property",
+    "value": "v1.1"
+  },
+  "endpointURL": {
+    "type": "Property",
+    "value": "https://my.endpoint/url"
+  },
+  "endpointDescription": {
+    "type": "Property",
+    "value": "this is what my endpoint do"
+  },
+  "image": {
+    "type": "Property",
+    "value": "https://image.com/my/image"
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        1.5,
+        1.5
+      ]
+    }
+  }
+}
