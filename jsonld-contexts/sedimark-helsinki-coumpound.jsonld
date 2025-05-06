@@ -3,7 +3,7 @@
     "https://easy-global-market.github.io/ngsild-api-data-models/airQuality/jsonld-contexts/airQuality-compound.jsonld",
     "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-compound.jsonld",
     "https://sedimark.github.io/broker/jsonld-contexts/sedimark-park.jsonld",
-    "https://sedimark.github.io/broker/jsonld-contexts/sedimark-park.jsonld",
+    "https://sedimark.github.io/broker/jsonld-contexts/sedimark-road.jsonld",
     "https://sedimark.github.io/broker/jsonld-contexts/sedimark-airQuality.jsonld",
     "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.8.jsonld"
   ]
