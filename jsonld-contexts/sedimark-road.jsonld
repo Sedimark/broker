@@ -1,0 +1,24 @@
+{
+	"@context": {
+		"averageWidth": "https://vocab.sedimark.io/averageWidth",
+		"constructionStatus": "https://vocab.sedimark.io/constructionStatus",
+		"leased": "https://vocab.sedimark.io/leased",
+		"lessee": "https://vocab.sedimark.io/lessee",
+		"majorDistrict": "https://vocab.sedimark.io/majorDistrict",
+		"maintenanceClass": "https://vocab.sedimark.io/maintenanceClass",
+		"neighborhood": "https://vocab.sedimark.io/neighborhood",
+		"owner": "https://vocab.sedimark.io/owner",
+		"roadAreaClass": "https://vocab.sedimark.io/roadAreaClass",
+		"roadAreaClassNumber": "https://vocab.sedimark.io/roadAreaClassNumber",
+		"roadAreaId": "https://vocab.sedimark.io/roadAreaId",
+		"roadAreaNumber": "https://vocab.sedimark.io/roadAreaNumber",
+		"roadId": "https://vocab.sedimark.io/roadId",
+		"roadName": "https://vocab.sedimark.io/roadName",
+		"roadOpeningDate": "https://vocab.sedimark.io/roadOpeningDate",
+		"subArea": "https://vocab.sedimark.io/subArea",
+		"surfaceArea": "https://vocab.sedimark.io/surfaceArea",
+		"updatedToDataService": "https://vocab.sedimark.io/updatedToDataService",
+		"usagePurpose": "https://vocab.sedimark.io/usagePurpose",
+		"usagePurposeId": "https://vocab.sedimark.io/usagePurposeId"
+	}
+}
