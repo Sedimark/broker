@@ -1,0 +1,68 @@
+{
+	"id": "urn:ngsi-ld:TrafficFlowObserved:4498:Primary",
+	"type": "TrafficFlowObserved",
+	"refRoad": {
+		"type": "Relationship",
+		"object": "urn:ngsi-ld:Road:Aleksanterinkatu"
+	},
+	"observedBy": {
+		"type": "Relationship",
+		"object": "urn:ngsi-ld:Counter:4498"
+	},
+	"temporalResolution": {
+		"type": "Property",
+		"value": "PT15M"
+	},
+	"laneDirection": {
+		"type": "Property",
+		"value": "Länteen"
+	},
+	"flow": [
+		{
+			"type": "Property",
+			"observedAt": "2023-11-29T08:00:00Z",
+			"value": 28,
+			"unitCode": "E50",
+			"datasetId": "urn:ngsi-ld:Dataset:LightVehicle",
+			"vehicleType": {
+				"type": "Property",
+				"value": "Henkilöauto tai kevytpakettiauto"
+			}
+		},
+		{
+			"type": "Property",
+			"observedAt": "2023-11-29T08:00:00Z",
+			"value": 2,
+			"unitCode": "E50",
+			"datasetId": "urn:ngsi-ld:Dataset:Motorbike",
+			"vehicleType": {
+				"type": "Property",
+				"value": "Moottoripyörä"
+			}
+		}
+	],
+	"vehicleSpeed": [
+		{
+			"type": "Property",
+			"observedAt": "2023-11-29T08:00:00Z",
+			"value": 28,
+			"unitCode": "KMH",
+			"datasetId": "urn:ngsi-ld:Dataset:LightVehicle",
+			"vehicleType": {
+				"type": "Property",
+				"value": "Henkilöauto tai kevytpakettiauto"
+			}
+		},
+		{
+			"type": "Property",
+			"observedAt": "2023-11-29T08:00:00Z",
+			"value": 19,
+			"unitCode": "KMH",
+			"datasetId": "urn:ngsi-ld:Dataset:Motorbike",
+			"vehicleType": {
+				"type": "Property",
+				"value": "Moottoripyörä"
+			}
+		}
+	]
+}

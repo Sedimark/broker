@@ -1,0 +1,16 @@
+{
+	"@context": {
+		"controlledProperty": "https://vocab.sedimark.io/controlledProperty",
+		"CrowdFlowObserved": "https://smartdatamodels.org/dataModel.Transportation/CrowdFlowObserved",
+		"dataReceived": "https://vocab.sedimark.io/dataReceived",
+		"Device": "https://vocab.sedimark.io/Device",
+		"firstStoredObservation": "https://vocab.sedimark.io/firstStoredObservation",
+		"laneDirection": "https://smartdatamodels.org/dataModel.Transportation/laneDirection",
+		"lastStoredObservation": "https://vocab.sedimark.io/lastStoredObservation",
+		"observedBy": "https://vocab.sedimark.io/observedBy",
+		"peopleCount": "https://smartdatamodels.org/dataModel.Transportation/peopleCount",
+		"roadClass": "https://vocab.sedimark.io/roadClass",
+		"source": "https://vocab.sedimark.io/source",
+		"vehicleSpeed": "https://vocab.sedimark.io/vehicleSpeed"
+	}
+}
