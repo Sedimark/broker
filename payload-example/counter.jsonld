@@ -1,0 +1,45 @@
+{
+	"id": "urn:ngsi-ld:Counter:4498",
+	"type": "Device",
+	"name": {
+		"type": "Property",
+		"value": "5_Eteläesplanadi"
+	},
+	"location": {
+		"type": "GeoProperty",
+		"value": {
+			"type": "Point",
+			"coordinates": [
+				24.94723,
+				60.16716
+			]
+		}
+	},
+	"controlledProperty": {
+		"type": "Property",
+		"value": [
+			"speed",
+			"count"
+		]
+	},
+	"dataReceived": {
+		"type": "Property",
+		"value": true
+	},
+	"refRoad": {
+		"type": "Relationship",
+		"object": "urn:ngsi-ld:Road:Aleksanterinkatu"
+	},
+	"source": {
+		"type": "Property",
+		"value": "EcoCounter"
+	},
+	"firstStoredObservation": {
+		"type": "Property",
+		"value": "2024-02-13T15:00:00"
+	},
+	"lastStoredObservation": {
+		"type": "Property",
+		"value": "2025-02-13T15:00:00"
+	}
+}
