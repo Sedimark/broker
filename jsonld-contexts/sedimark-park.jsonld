@@ -1,0 +1,13 @@
+{
+	"@context": {
+		"areaCreationDate": "https://vocab.sedimark.io/areaCreationDate",
+		"class": "https://vocab.sedimark.io/class",
+		"greenAreaId": "https://vocab.sedimark.io/greenAreaId",
+		"Park": "https://vocab.sedimark.io/Park",
+		"parkName": "https://vocab.sedimark.io/parkName",
+		"parkNameId": "https://vocab.sedimark.io/parkNameId",
+		"parkNumber": "https://vocab.sedimark.io/parkNumber",
+		"zoningCode": "https://vocab.sedimark.io/zoningCode",
+		"zoningCodeText": "https://vocab.sedimark.io/zoningCodeText"
+	}
+}
