@@ -5,6 +5,7 @@
 		"dataReceived": "https://vocab.sedimark.io/dataReceived",
 		"Device": "https://vocab.sedimark.io/Device",
 		"firstStoredObservation": "https://vocab.sedimark.io/firstStoredObservation",
+		"flowType": "https://vocab.sedimark.io/flowType",
 		"laneDirection": "https://smartdatamodels.org/dataModel.Transportation/laneDirection",
 		"lastStoredObservation": "https://vocab.sedimark.io/lastStoredObservation",
 		"observedBy": "https://vocab.sedimark.io/observedBy",
