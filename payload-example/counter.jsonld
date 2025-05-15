@@ -26,6 +26,10 @@
 		"type": "Property",
 		"value": true
 	},
+	"flowType": {
+		"type": "Property",
+		"value": "traffic"
+	},
 	"refRoad": {
 		"type": "Relationship",
 		"object": "urn:ngsi-ld:Road:Aleksanterinkatu"
