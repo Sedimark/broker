@@ -6,7 +6,7 @@ the already discussed property for types :
 - [AIModelAsset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-ai-model-asset.jsonld)
 - [ServiceAsset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-service-asset.jsonld)
 
-#### [context](https://sedimark.github.io/broker/jsonld-contexts/sedimark-helsinki-coumpound.jsonld) for helsinki use case
+#### [context](https://sedimark.github.io/broker/jsonld-contexts/sedimark-helsinki-compound.jsonld) for helsinki use case
 
 ## Calling the broker with the context
 You can use the "Link" header to define the context of your request when calling the NGSILD-Broker.
