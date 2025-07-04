@@ -15,8 +15,20 @@ The [context](https://sedimark.github.io/broker/jsonld-contexts/sedimark-compoun
 - [AIModelAsset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-ai-model-asset.jsonld)
 - [ServiceAsset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-service-asset.jsonld)
 
-The context for the reference Use Cases for SEDIMARK: 
-#### [Helsinki Mobility Management](https://sedimark.github.io/broker/jsonld-contexts/sedimark-helsinki-compound.jsonld).
+Context for reference Use Cases: 
+
+- [Mobility Management for Municipality Services, Helsinki](https://sedimark.github.io/broker/jsonld-contexts/sedimark-helsinki-compound.jsonld)
+  - Air Quality
+  - Traffic
+  - Place Geometries
+- [Water Quality and Environment](TBC)
+  - Weather Stations
+   - Hydrometric Stations
+- [Urban Planning for Cycle Routes, Santander](TBC)
+  - Vehicle
+  - Vehicle (Bike) Stations
+- [Domestic Energy Consumption and Churn](TBC)
+  - Energy Consumption
 
 ## Calling the broker with the context
 You can use the "Link" header to define the context of your request when calling the NGSILD-Broker.
