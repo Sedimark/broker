@@ -10,7 +10,7 @@ The Broker is realised through the [Stellio Context Broker](https://github.com/s
 
 ## Context
 The [context](https://sedimark.github.io/broker/jsonld-contexts/sedimark-compound.jsonld) defines all properties for each type of Asset :
-- [Asset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-asset.jsonld)
+- [Asset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-asset.jsonld) (Abstract Class. Proporties common to all types)
 - [DataAsset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-data-asset.jsonld)
 - [AIModelAsset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-ai-model-asset.jsonld)
 - [ServiceAsset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-service-asset.jsonld)
@@ -36,22 +36,25 @@ You can use the "Link" header to define the context of your request when calling
 <https://sedimark.github.io/broker/jsonld-contexts/sedimark-compound.jsonld>; rel="http://www.w3.org/ns/json-ld#context"; type="application/ld+json"
 ```
 
-## creation of assets
+## Creation of assets
 An example of asset creation for a broker deployed on "localhost:8080" would be the following :
-
+```
 POST "localhost:8080/ngsi-ld/v1/entities"
-
+```
 body : [example here](https://sedimark.github.io/broker/payload-example/asset.jsonld)
 
-## fetching of asset by id
+## Fetching of Asset by id
+```
 GET "localhost:8080/ngsi-ld/v1/entities/{id}"
+```
 
 [response example](https://sedimark.github.io/broker/payload-example/asset.jsonld)
 
-##  fetching of a list of assets
+##  Fetching of a list of Assets
+```
 GET "localhost:8080/ngsi-ld/v1/entities?type=Asset"
-
-## temporal entities
+```
+## Temporal entities
 If your properties are changing through time, you can add an observedAt value inside the properties to mark the point that they represent in times.
 
 Then you can use the temporal endpoints to fetch the temporal representation.
