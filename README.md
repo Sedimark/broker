@@ -10,7 +10,7 @@ The Broker is realised through the [Stellio Context Broker](https://github.com/s
 
 ## Context
 The [context](https://sedimark.github.io/broker/jsonld-contexts/sedimark-compound.jsonld) defines all properties for each type of Asset :
-- [Asset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-asset.jsonld) (Abstract Class. Proporties common to all types)
+- [Asset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-asset.jsonld) (Abstract Class. Properties common to all types)
 - [DataAsset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-data-asset.jsonld)
 - [AIModelAsset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-ai-model-asset.jsonld)
 - [ServiceAsset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-service-asset.jsonld)
