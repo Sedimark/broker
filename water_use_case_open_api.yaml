@@ -1,0 +1,157 @@
+openapi: 3.0.0
+info:
+  title: water_use_case_open_api
+  version: 1.0.0
+paths:
+  /ngsi-ld/v1/temporal/entities:
+    get:
+      summary: Get All HydrometricInformation With Temporal evolution
+      operationId: Get All HydrometricInformation With Temporal evolution
+      description: ''
+      tags:
+        - ''
+      responses:
+        '200':
+          description: ''
+      parameters:
+        - name: type
+          in: query
+          description: ''
+          required: true
+          example: HydrometricStation
+        - name: lastN
+          in: query
+          description: ''
+          required: true
+          example: '1000'
+        - name: timerel
+          in: query
+          description: ''
+          required: true
+          example: before
+        - name: timeAt
+          in: query
+          description: ''
+          required: true
+          example: '2026-01-22T23:00:00Z'
+        - name: Content-Type
+          in: header
+          description: ''
+          required: true
+          example: application/json
+        - name: Link
+          in: header
+          description: ''
+          required: true
+          example: >-
+            <https://easy-global-market.github.io/ngsild-api-data-models/projects/jsonld-contexts/sedimark.jsonld>;
+            rel="http://www.w3.org/ns/json-ld#context";
+            type="application/ld+json"
+        - name: NGSILD-Tenant
+          in: header
+          description: ''
+          required: true
+          example: urn:ngsi-ld:tenant:sedimark
+  /ngsi-ld/v1/entities:
+    get:
+      summary: Get All WeatherObservation
+      operationId: Get All WeatherObservation
+      description: ''
+      tags:
+        - ''
+      responses:
+        '200':
+          description: ''
+      parameters:
+        - name: type
+          in: query
+          description: ''
+          required: true
+          example: WeatherObserved
+        - name: Content-Type
+          in: header
+          description: ''
+          required: true
+          example: application/json
+        - name: Link
+          in: header
+          description: ''
+          required: true
+          example: >-
+            <https://easy-global-market.github.io/ngsild-api-data-models/projects/jsonld-contexts/sedimark.jsonld>;
+            rel="http://www.w3.org/ns/json-ld#context";
+            type="application/ld+json"
+        - name: NGSILD-Tenant
+          in: header
+          description: ''
+          required: true
+          example: urn:ngsi-ld:tenant:sedimark
+  /ngsi-ld/v1/entities/urn:ngsi-ld:HydrometricStation:X031001001:
+    get:
+      summary: Get One entity Copy
+      operationId: Get One entity Copy
+      description: ''
+      tags:
+        - ''
+      responses:
+        '200':
+          description: ''
+      parameters:
+        - name: Content-Type
+          in: header
+          description: ''
+          required: true
+          example: application/json
+        - name: Link
+          in: header
+          description: ''
+          required: true
+          example: >-
+            <https://easy-global-market.github.io/ngsild-api-data-models/projects/jsonld-contexts/sedimark.jsonld>;
+            rel="http://www.w3.org/ns/json-ld#context";
+            type="application/ld+json"
+        - name: NGSILD-Tenant
+          in: header
+          description: ''
+          required: true
+          example: urn:ngsi-ld:tenant:sedimark
+  /ngsi-ld/v1/temporal/entities/urn:ngsi-ld:WeatherObserved:EGM-Farm-Demo:
+    get:
+      summary: Get One entity Temporal with foramt=temporalvalues Copy
+      operationId: Get One entity Temporal with foramt=temporalvalues Copy
+      description: ''
+      tags:
+        - ''
+      responses:
+        '200':
+          description: ''
+      parameters:
+        - name: format
+          in: query
+          description: ''
+          required: true
+          example: temporalValues
+        - name: Content-Type
+          in: header
+          description: ''
+          required: true
+          example: application/json
+        - name: Link
+          in: header
+          description: ''
+          required: true
+          example: >-
+            <https://easy-global-market.github.io/ngsild-api-data-models/projects/jsonld-contexts/sedimark.jsonld>;
+            rel="http://www.w3.org/ns/json-ld#context";
+            type="application/ld+json"
+        - name: NGSILD-Tenant
+          in: header
+          description: ''
+          required: true
+          example: urn:ngsi-ld:tenant:sedimark
+servers:
+  - url: https://stellio-dev.eglobalmark.com
+components:
+  schemas: {}
+  requestBodies: {}
+  securitySchemes: {}

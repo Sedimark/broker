@@ -58,7 +58,7 @@ GET "localhost:8080/ngsi-ld/v1/entities?type=Asset"
 If your properties are changing through time, you can add an observedAt value inside the properties to mark the point that they represent in times.
 
 Then you can use the temporal endpoints to fetch the temporal representation.
-https://stellio.readthedocs.io/en/latest/API_walkthrough.html#get-temporal-evolution-of-attributes
+https://stellio.readthedocs.io/en/latest/user/API_walkthrough.html#consume-temporal-data
 
 ## additionnal resource https://ngsild.org/
 
