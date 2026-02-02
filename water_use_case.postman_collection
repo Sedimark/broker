@@ -1,0 +1,300 @@
+{
+  "info": {
+    "_postman_id": "e5724ea6-bb96-4902-a9a1-c1329afc86b9",
+    "name": "Sedimark water use case",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "34896864"
+  },
+  "item": [
+    {
+      "name": "Get All WeatherInformations",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          },
+          {
+            "key": "Link",
+            "value": "<https://easy-global-market.github.io/ngsild-api-data-models/projects/jsonld-contexts/sedimark.jsonld>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"",
+            "type": "text"
+          },
+          {
+            "key": "NGSILD-Tenant",
+            "value": "urn:ngsi-ld:tenant:sedimark",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://stellio-dev.eglobalmark.com/ngsi-ld/v1/entities?type=WeatherInformation",
+          "protocol": "https",
+          "host": [
+            "stellio-dev",
+            "eglobalmark",
+            "com"
+          ],
+          "path": [
+            "ngsi-ld",
+            "v1",
+            "entities"
+          ],
+          "query": [
+            {
+              "key": "type",
+              "value": "WeatherInformation"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get All WeatherObservation",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          },
+          {
+            "key": "Link",
+            "value": "<https://easy-global-market.github.io/ngsild-api-data-models/projects/jsonld-contexts/sedimark.jsonld>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"",
+            "type": "text"
+          },
+          {
+            "key": "NGSILD-Tenant",
+            "value": "urn:ngsi-ld:tenant:sedimark",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://stellio-dev.eglobalmark.com/ngsi-ld/v1/entities?type=WeatherObserved",
+          "protocol": "https",
+          "host": [
+            "stellio-dev",
+            "eglobalmark",
+            "com"
+          ],
+          "path": [
+            "ngsi-ld",
+            "v1",
+            "entities"
+          ],
+          "query": [
+            {
+              "key": "type",
+              "value": "WeatherObserved"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get All HydrometricInformation With Temporal evolution",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          },
+          {
+            "key": "Link",
+            "value": "<https://easy-global-market.github.io/ngsild-api-data-models/projects/jsonld-contexts/sedimark.jsonld>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"",
+            "type": "text"
+          },
+          {
+            "key": "NGSILD-Tenant",
+            "value": "urn:ngsi-ld:tenant:sedimark",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://stellio-dev.eglobalmark.com/ngsi-ld/v1/temporal/entities?type=HydrometricStation&lastN=1000&timerel=before&timeAt=2026-01-22T23:00:00Z",
+          "protocol": "https",
+          "host": [
+            "stellio-dev",
+            "eglobalmark",
+            "com"
+          ],
+          "path": [
+            "ngsi-ld",
+            "v1",
+            "temporal",
+            "entities"
+          ],
+          "query": [
+            {
+              "key": "type",
+              "value": "HydrometricStation"
+            },
+            {
+              "key": "lastN",
+              "value": "1000"
+            },
+            {
+              "key": "timerel",
+              "value": "before"
+            },
+            {
+              "key": "timeAt",
+              "value": "2026-01-22T23:00:00Z"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get One entity Copy",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          },
+          {
+            "key": "Link",
+            "value": "<https://easy-global-market.github.io/ngsild-api-data-models/projects/jsonld-contexts/sedimark.jsonld>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"",
+            "type": "text"
+          },
+          {
+            "key": "NGSILD-Tenant",
+            "value": "urn:ngsi-ld:tenant:sedimark",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://stellio-dev.eglobalmark.com/ngsi-ld/v1/entities/urn:ngsi-ld:HydrometricStation:X031001001",
+          "protocol": "https",
+          "host": [
+            "stellio-dev",
+            "eglobalmark",
+            "com"
+          ],
+          "path": [
+            "ngsi-ld",
+            "v1",
+            "entities",
+            "urn:ngsi-ld:HydrometricStation:X031001001"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get One entity Temporal with foramt=temporalvalues Copy",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          },
+          {
+            "key": "Link",
+            "value": "<https://easy-global-market.github.io/ngsild-api-data-models/projects/jsonld-contexts/sedimark.jsonld>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"",
+            "type": "text"
+          },
+          {
+            "key": "NGSILD-Tenant",
+            "value": "urn:ngsi-ld:tenant:sedimark",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://stellio-dev.eglobalmark.com/ngsi-ld/v1/temporal/entities/urn:ngsi-ld:WeatherObserved:EGM-Farm-Demo?format=temporalValues",
+          "protocol": "https",
+          "host": [
+            "stellio-dev",
+            "eglobalmark",
+            "com"
+          ],
+          "path": [
+            "ngsi-ld",
+            "v1",
+            "temporal",
+            "entities",
+            "urn:ngsi-ld:WeatherObserved:EGM-Farm-Demo"
+          ],
+          "query": [
+            {
+              "key": "format",
+              "value": "temporalValues"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
